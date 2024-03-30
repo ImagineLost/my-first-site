@@ -17,6 +17,9 @@ h3 {
 }
 ul {
     list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .NameText {
@@ -68,6 +71,7 @@ ul {
 }
 .MainHeader {
     border-bottom: 1px solid #7A7A7A;
+    display: flex;
 }
 
 .mainName {
@@ -91,3 +95,20 @@ ul {
     line-height: 18.2px;
     text-align: left;
 }
+
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+}
+div {
+    display: flex;
+}
+nav {
+    display: flex;
+    align-items: baseline;
+}
+img {
+    display: flex;
+}
+
