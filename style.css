@@ -26,6 +26,8 @@ ul {
     font-size: 28px;
     color: #45536D;
     font-weight: 700;
+    margin-left: 10px;
+    margin-right: 20px;
 }
 
 .SubNameText {
@@ -39,7 +41,11 @@ ul {
     font-size: 14px;
     font-weight: 500;
     line-height: 18.2px;
-    text-align: left;
+    text-decoration: none;
+    font-style: normal;
+    color: #434A5C;
+    margin-right: 25px;
+
 }
 
 .afisha_meropriyatiy {
@@ -47,7 +53,8 @@ ul {
     font-size: 14px;
     font-weight: 500;
     line-height: 18.2px;
-    text-align: left;
+    margin-right: 25px;
+
 }
 
 .feedback {
@@ -55,7 +62,7 @@ ul {
     font-size: 14px;
     font-weight: 500;
     line-height: 18.2px;
-    text-align: left;
+    margin-right: 25px;
 }
 
 .MainText {
@@ -100,15 +107,69 @@ ul {
 header {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom: 1px solid #7A7A7A
+
 }
 div {
     display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
 nav {
     display: flex;
     align-items: baseline;
 }
-img {
-    display: flex;
+
+
+a {
+    text-decoration: none;
 }
 
+.table {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    gap: 15px;
+}
+
+.subTable {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.on-image {
+    position: relative;
+    bottom: 50px;
+    left: -550px;
+}
+
+.div-special {
+    display: flex;
+    justify-content: flex-start;
+}
+.on-image-text {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30.72px;
+    color: #FFFFFF;
+}
+.on-image-buttons {
+    position: relative;
+    top: 20px;
+    left: -220px;
+}
+aside {
+    
+    position: relative;
+    right: 100px;
+    bottom: 20px;
+}
+
+.aside-bottom {
+    background-color: #EAEDF2;
+    position: relative;
+    top: 20px;
+    right: 100px;
+}
