@@ -28,12 +28,14 @@ ul {
     font-weight: 700;
     margin-left: 10px;
     margin-right: 20px;
+    text-decoration: none;
 }
 
 .SubNameText {
     color: #434A5C;
     font-weight: 400;
     font-size: 14px;
+
 }
 
 .navText {
@@ -54,7 +56,8 @@ ul {
     font-weight: 500;
     line-height: 18.2px;
     margin-right: 25px;
-
+    text-decoration: none;
+    color: #141414;
 }
 
 .feedback {
@@ -63,6 +66,8 @@ ul {
     font-weight: 500;
     line-height: 18.2px;
     margin-right: 25px;
+    color: #576698;
+    text-decoration: underline;
 }
 
 .MainText {
@@ -93,6 +98,7 @@ ul {
     font-size: 14px;
     font-weight: 400;
     line-height: 18.2px;
+    color: #424242;
     text-align: left;
 }
 
@@ -100,6 +106,7 @@ ul {
     font-size: 14px;
     font-weight: 600;
     line-height: 18.2px;
+    color: #424242;
     text-align: left;
 }
 
@@ -122,9 +129,7 @@ nav {
 }
 
 
-a {
-    text-decoration: none;
-}
+
 
 .table {
     display: grid;
@@ -139,15 +144,23 @@ a {
     flex-direction: column;
 }
 
-.on-image {
-    position: relative;
-    bottom: 50px;
-    left: -550px;
+.subAside {
+    background-color: #EAEDF2;
+    width: 540px;
+    height: 285px;
+    margin-bottom: 25px;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .div-special {
-    display: flex;
-    justify-content: flex-start;
+    width:  555px ;
+    height: 600px;
+    background-image: url(./images/apartments.png);
+    background-repeat: no-repeat;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
 }
 .on-image-text {
     font-size: 24px;
@@ -155,21 +168,49 @@ a {
     line-height: 30.72px;
     color: #FFFFFF;
 }
-.on-image-buttons {
+.aside{
     position: relative;
-    top: 20px;
-    left: -220px;
-}
-aside {
-    
-    position: relative;
-    right: 100px;
-    bottom: 20px;
+    top: -600px;
+    left: -120px;
+    right: 120px;
+    flex-direction: column;
 }
 
-.aside-bottom {
-    background-color: #EAEDF2;
-    position: relative;
-    top: 20px;
-    right: 100px;
+.special-section {
+    height: 700.19px;
+}
+.footr-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    gap: 25px;
+}
+footer {
+    width: 1140px;
+    height: 100.563px;
+}
+.subFooter-div  {
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+}
+.footer-feedback {
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18.2px;
+    color: #424242;
+    text-align: left;
+}
+.button-colorful {
+    color: #E5C6B2;
+    background-color: #BF6024;
+    border-radius: 50px;
+    padding: 5px 13px 5px 13px;
+    margin-right: 15px;
+}
+.button-transparent {
+    color: #E5C6B2;
+    background-color: transparent;
+    border-radius: 50px;
+    padding: 5px 13px 5px 13px;
 }
